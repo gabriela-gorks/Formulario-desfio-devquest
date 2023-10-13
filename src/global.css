@@ -1,0 +1,105 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./imagem/bg-repeat.jpg);
+    background-size: contain;
+}
+
+.container .mensagem {
+    margin: 70px;
+    color: #fff;
+    width:300px ;
+}
+
+.container .mensagem h1{
+    font-size: 20px;
+    font-weight: 900;
+    width: 250px;
+    height: 46px;
+    margin-bottom: 40px;
+    line-height: 24px;
+}
+
+.container .mensagem p{
+    font-size: 15px;
+    font-weight: 400;
+    width: 300px;
+    height: 54px;
+    line-height: 18px;
+}
+
+.container .formulario{
+    background-color: #FFFFFF;
+    width: 340px;
+    height: 378px;
+}
+
+.container .formulario form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex:1;
+}
+
+.container .formulario form:nth-child(1){
+    margin-top: 20px;
+}
+
+.container .formulario form .input{
+    width: 298px;
+    margin: 7.5px 20px 0;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+}
+
+.container .formulario form .input.vazio{
+    border:1px solid #F52E2E;
+}
+
+.container .formulario form .input.preenchido{
+    border:1px solid #00C22B;
+}
+
+span{
+    font-size: 8px;
+    color: #F52E2E;
+    font-weight: 400;
+    width: 100%;
+    padding-left: 22px;
+    display: none;
+}
+
+.mostrar-elemento {
+    display: block;
+}
+
+.container .formulario form .input::placeholder{
+    font-weight: 700;
+    padding: 9px;
+    color: #A8A8A8;
+    font-size: 15px;
+}
+
+.container .formulario form .input.textarea{
+   height: 100px;
+}
+
+
+.container .formulario form h3{
+    margin-left: 15px;
+    margin-bottom: 10px;
+    width: 100%;
+ }
+ 
+ .container .formulario form .input.button {
+     background-color:#3CCC87;
+     font-weight: 700;
+     font-size: 15px;
+     color: #FFFFFF;
+     border: none;
+ }
